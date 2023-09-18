@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class PalindromeChecker {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
+        Scanner tahti = new Scanner(System.in);
+        String input = tahti.nextLine();
 
         // Transform the input to lowercase and remove punctuation
         String transformed = transformInput(input);
